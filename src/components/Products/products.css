@@ -1,0 +1,237 @@
+@media(max-width:768px) and (min-width:0px){ 
+  .display {
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); */
+    display: flex;
+    padding: 0px 4px 6px;
+  }
+  .belly {
+    padding: 0px 16px;
+    max-width: 216px;
+    height: 270px;
+  }
+  .pdfg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 200px;
+    padding: 6px;
+    height: 270px;
+    box-shadow: 0 1px 3px -2px black;
+  }
+  .ct-img {
+    object-fit: contain;
+  }
+  .ct-img img {
+    max-width: 187px;
+    height: 187px;
+    object-fit: contain;
+  }
+  .ct-img a {
+    width: 0px;
+    height: 0px;
+  }
+  .ct-dis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    max-width: 187px;
+    height: 52px;
+    font-size: 12px;
+  }
+  .ct-dis img {
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+  
+  }
+  .ct-dis button{
+    background: white;
+    border: none;
+    color: black;
+  }
+  .ct-dis button:active{
+  color: red;
+  }
+  .btnm {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    top: -252px;
+    left: 160px;
+    border: none;
+    background: white;
+    border-radius: 100px;
+  }
+  .btnm:active {
+    color: red;
+  }
+  
+}
+@media (min-width:1024px){
+  .display {
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); */
+    display: flex;
+    padding: 0px 4px 6px;
+  }
+  .belly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 0px 16px;
+    max-width: 216px;
+    height: 270px;
+  }
+  .pdfg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 200px;
+    padding: 6px;
+    height: 270px;
+    box-shadow: 0 1px 3px -2px black;
+  }
+  .ct-img {
+    object-fit: contain;
+  }
+  .ct-img img {
+    max-width: 187px;
+    height: 187px;
+    object-fit: contain;
+  }
+  .ct-img a {
+    width: 0px;
+    height: 0px;
+  }
+  .ct-dis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    max-width: 187px;
+    height: 52px;
+    font-size: 12px;
+  }
+  .ct-dis img {
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+  
+  }
+  .ct-dis button{
+    background: white;
+    border: none;
+    color: black;
+  }
+  .ct-dis button:active{
+  color: red;
+  }
+  .btnm {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    top: -252px;
+    left: 80px;
+    border: none;
+    background: white;
+    border-radius: 100px;
+  }
+  .btnm:active {
+    color: red;
+  }
+  
+}
+@media (max-width:1024px) and (min-width:768px){
+  .display {
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); */
+    display: flex;
+    padding: 0px 4px 6px;
+  }
+  .belly {
+    padding: 0px 16px;
+    max-width: 216px;
+    height: 270px;
+  }
+  .pdfg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 200px;
+    padding: 6px;
+    height: 270px;
+    box-shadow: 0 1px 3px -2px black;
+  }
+  .ct-img {
+    object-fit: contain;
+  }
+  .ct-img img {
+    max-width: 187px;
+    height: 187px;
+    object-fit: contain;
+  }
+  .ct-img a {
+    width: 0px;
+    height: 0px;
+  }
+  .ct-dis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    max-width: 187px;
+    height: 52px;
+    font-size: 12px;
+  }
+  .ct-dis img {
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+  
+  }
+  .ct-dis button{
+    background: white;
+    border: none;
+    color: black;
+  }
+  .ct-dis button:active{
+  color: red;
+  }
+  .btnm {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    top: -252px;
+    left: 160px;
+    border: none;
+    background: white;
+    border-radius: 100px;
+  }
+  .btnm:active {
+    color: red;
+  }
+  
+}
+
+

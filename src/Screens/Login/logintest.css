@@ -1,0 +1,127 @@
+/* @media(max-width:768px) and (min-width:0px){  */
+    @media (min-width: 1024px) {
+        /* @media (max-width:1024px) and (min-width:768px){ */
+      
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        .container {
+          background: rgb(59, 59, 212);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          height: 100vh;
+        }
+        .body {
+          width: 600px;
+          height: 284px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.3);
+        }
+        .content {
+          width: 300px;
+          height: 284px;
+          border-radius: 0px 8px 8px 0px;
+          background: rgb(59, 59, 212);
+        }
+        .content img {
+          border-radius: 5px 0px 0px 5px;
+          width: 300px;
+          height: 284px;
+          /* object-fit: contain; */
+        }
+        .myform {
+          width: 300px;
+          height: 284px;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-color: #cbe3ff;
+          border-radius: 0px 5px 5px 0px;
+          text-align: center;
+        }
+        .usnm{
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          padding: 0px 0px 10px 0px;
+          gap: 5px;
+          font-family: "Poppins", sans-serif;
+      
+        }
+        .usnm img{
+          width: 18px;
+          height: 18px;
+        }
+        .pswd1{
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          gap: 5px;
+          font-family: "Poppins", sans-serif;
+        }
+        .pswd1 img {
+          width: 18px;
+          height: 18px;
+        }
+        .myform h1 {
+          text-align: center;
+          font-size: 23px;
+          padding: 20px 0px 20px 0px;
+          color: rgb(59, 59, 212);
+          font-family: "Poppins", sans-serif;
+        }
+        .usnm input[type="text"]{
+          width: 250px;
+          height: 32px;
+          background-color: white;
+          border: none;
+          border-radius: 8px;
+          box-shadow: 0.5px 0.5px 10px 1px rgba(28, 28, 28, 0.26);
+          font-family: "Poppins", sans-serif;
+        }
+        .pswd1 input[type="password"] {
+          width: 250px;
+          height: 32px;
+          background-color: white;
+          border: none;
+          border-radius: 8px;
+          box-shadow: 0.5px 0.5px 10px 1px rgba(28, 28, 28, 0.26);
+          font-family: "Poppins", sans-serif;
+        }
+        .btn {
+          width: 150px;
+          height: 35px;
+          background-color:rgb(59, 59, 212);
+          border: none;
+          color: white;
+          border-radius: 8px;
+          font-family: "Poppins", sans-serif;
+        }
+        .forgot-password {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          font-size: 10px;
+          padding: 5px 20px 5px 0px;
+        }
+        @media screen and (max-width: 768px) {
+          .content {
+            display: none;
+          }
+          .body {
+            width: 90vw;
+            height: auto;
+          }
+          .myform {
+            width: 100%;
+            border-radius: 8px;
+          }
+        }
+      }
+      

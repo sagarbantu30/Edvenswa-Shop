@@ -1,0 +1,137 @@
+@media(max-width:768px) and (min-width:0px){
+  .cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    text-align: center;
+  }
+  .cartItem {
+    max-width: 700px;
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+    object-fit: contain;
+  }
+
+  .cartItem img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+  }
+
+  .cartItem .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  input[type="number"] {
+    width: 40px;
+    margin-left: 10px;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    opacity: 1;
+  }
+
+}
+@media (min-width: 1024px) {
+  h2{
+    text-align: center;
+  }
+  .cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cartItem {
+    width: 700px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+    object-fit: contain;
+  }
+
+  .cartItem img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  .cartItem .description {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  input[type="number"] {
+    width: 40px;
+    margin-left: 10px;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    opacity: 1;
+  }
+
+}
+  @media (max-width:1024px) and (min-width:768px){
+    .cart {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h2{
+      text-align: center;
+    }
+    .cartItem {
+      width: 700px;
+      height: 250px;
+      display: flex;
+  
+      align-items: center;
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+      border-radius: 25px;
+      margin: 30px;
+      object-fit: contain;
+    }
+  
+    .cartItem img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+  
+    .cartItem .description {
+      width: 100%;
+      font-size: 30px;
+    }
+  
+    input[type="number"] {
+      width: 40px;
+      margin-left: 10px;
+    }
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      opacity: 1;
+    }
+  
+  }
+
+  

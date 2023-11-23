@@ -1,0 +1,221 @@
+@media(max-width:768px) and (min-width:0px){ 
+  .navbar {
+    display:flex;
+    justify-content:space-around;
+    box-shadow: 0 1px 3px -2px black;
+    padding: 16px;
+    width: 100%;
+  }
+  .nav-logo{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    max-width: 40px;
+    margin-right: 10px;
+  }
+  .serh{
+    display: flex;
+    align-items: center;
+  }
+  .logout{
+    display: flex;
+    align-items: center;
+  }
+  .home{
+    display: flex;
+    align-items: center;
+  }
+  .logout button{
+    color:transparent;
+  }
+  .logout button:active{
+    background:blue;
+  }
+  .links{
+    display: flex;
+    align-items: center;
+  }
+  .acc{
+    display: none;
+    /* align-items: center; */
+  }
+  .acc img{
+    max-width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    object-fit: contain;
+  }
+  /* .fcount{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+  } */
+  .home a{
+    color: black;
+    font-size: 0px;
+  }
+  .serh a{
+    font-size: 0px;
+    color: black;
+  }
+  .links a{
+    font-size: 0px;
+    color: black;
+  }
+
+}
+@media (min-width:1024px){
+  .navbar {
+    display:flex;
+    justify-content:space-around;
+    box-shadow: 0 1px 3px -2px black;
+    padding: 16px;
+    width: 100vw;
+    }
+  .nav-logo{
+    display: flex;
+    align-items: center;
+  }
+  .serh{
+    display: flex;
+    align-items: center;
+  }
+  .logout{
+    display: flex;
+    align-items: center;
+  }
+  .home{
+    display: flex;
+    align-items: center;
+  }
+  .logout button{
+    color:transparent;
+  }
+  .logout button:active{
+    background:blue;
+  }
+  .links{
+    display: flex;
+    align-items: center;
+  }
+  .acc{
+    display: flex;
+    align-items: center;
+  }
+  .acc img{
+    max-width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    object-fit: contain;
+  }
+  /* .fcount{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+  } */
+  .home a{
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  .serh a{
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  .links a{
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+
+}
+@media (max-width:1024px) and (min-width:768px){
+  .navbar {
+    display:flex;
+    justify-content:space-around;
+    box-shadow: 0 1px 3px -2px black;
+    padding: 16px;
+    width: 100%;
+      }
+  .nav-logo{
+    display: flex;
+    align-items: center;
+  }
+  .serh{
+    display: flex;
+    align-items: center;
+  }
+  .logout{
+    display: flex;
+    align-items: center;
+  }
+  .home{
+    display: flex;
+    align-items: center;
+  }
+  .logout button{
+    color:transparent;
+  }
+  .logout button:active{
+    background:blue;
+  }
+  .links{
+    display: flex;
+    align-items: center;
+  }
+  .acc{
+    display: flex;
+    align-items: center;
+  }
+  .acc img{
+    max-width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    object-fit: contain;
+  }
+  /* .fcount{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+  } */
+  .home a{
+    color: black;
+  }
+  .serh a{
+    color: black;
+  }
+  .links a{
+    color: black;
+  }
+
+}
+
+ 

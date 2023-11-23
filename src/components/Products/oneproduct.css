@@ -1,0 +1,449 @@
+@media (max-width: 768px) and (min-width: 0px) {
+  .oneprod {
+    display: flex;
+    justify-content: center;
+  }
+  .one {
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .oneprod-left {
+    display: flex;
+    flex-flow: column;
+    /* width: 40%; */
+    /* height: auto; */
+  }
+  .onjc {
+    display: flex;
+    flex-flow: column;
+    max-width: 400px;
+    height: 418px;
+  }
+  .oneimg {
+    display: flex;
+    width: 390px;
+    height: auto;
+    gap: 17px;
+    margin-top: 5px;
+    justify-content: center;
+    object-fit: contain;
+  }
+  .oneimg img {
+    width: 57px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .oneimg-main {
+    display: flex;
+    width: 400px;
+    height: 448px;
+    box-shadow: 0px;
+    justify-content: center;
+    object-fit: contain;
+  }
+  .oneimg-main img {
+    max-width: 360px;
+    max-height: 416px;
+    object-fit: contain;
+  }
+  .botton {
+    display: flex;
+    width: 390px;
+    height: 68px;
+    gap: 12px;
+    /* justify-content: center; */
+  }
+  .botton button {
+    width: 192px;
+    height: 55px;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+  }
+  .botton button:active {
+    background-color: white;
+  }
+  .oneprod-right {
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    flex-direction: column;
+    text-align: left;
+    height: 448px;
+  }
+  .oneprod-right::-webkit-scrollbar {
+    display: none;
+  }
+  .dim {
+    flex-flow: column;
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+  }
+  .dim h2{
+    text-align: left;
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
+  .titlebrand {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .discrip {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  .rating p {
+    display: flex;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+  .rating img {
+    width: 16px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .price {
+    display: flex;
+    text-decoration: line-through;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .afterdiscount {
+    font-size: 28px;
+  }
+  .discount {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .addto {
+    background-color: rgb(242, 242, 123);
+  }
+  .buy {
+    background-color: coral;
+  }
+  .termsandconditions {
+    margin-top: 60px;
+    margin-left: 5px;
+  }
+  .star {
+    display: flex;
+    padding-top: 30px;
+    /* margin-left: 40px; */
+  }
+  .termsandconditions ul li {
+    list-style: square;
+  }
+  .termsandconditions h2 {
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+  }
+}
+@media (min-width: 1024px) {
+  .oneprod {
+    padding: 30px 40px 30px 40px;
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+  }
+  .one {
+    display: flex;
+  }
+  .oneprod-left {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+  .onjc {
+    display: flex;
+    max-width: 467px;
+    height: 418px;
+  }
+  .oneimg {
+    display: flex;
+    flex-direction: column;
+    width: 64px;
+    height: 448px;
+    gap: 17px;
+    margin-top: 5px;
+    justify-content: center;
+    object-fit: contain;
+  }
+  .oneimg img {
+    width: 57px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .oneimg-main {
+    display: flex;
+    width: 400px;
+    height: 448px;
+    margin-left: 10px;
+    box-shadow: 0px;
+    justify-content: center;
+    object-fit: contain;
+  }
+  .oneimg-main img {
+    max-width: 400px;
+    max-height: 416px;
+    object-fit: contain;
+  }
+  .botton {
+    display: flex;
+    width: 467px;
+    height: 68px;
+    gap: 17px;
+    justify-content: right;
+  }
+  .botton button {
+    width: 192px;
+    height: 55px;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+  }
+  .botton button:active {
+    background-color: white;
+  }
+  .oneprod-right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    height: 448px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  .oneprod-right::-webkit-scrollbar {
+    display: none;
+  }
+  .dim {
+    flex-flow: column;
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+  }
+  .dim h2{
+    text-align: left;
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
+  .titlebrand {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .discrip {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  .rating p {
+    display: flex;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+  .rating img {
+    width: 16px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .price {
+    display: flex;
+    text-decoration: line-through;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .afterdiscount {
+    font-size: 28px;
+  }
+  .discount {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .addto {
+    background-color: rgb(242, 242, 123);
+  }
+  .buy {
+    background-color: coral;
+  }
+  .termsandconditions {
+    margin-top: 60px;
+    margin-left: 5px;
+  }
+  .star {
+    display: flex;
+    padding-top: 30px;
+    /* margin-left: 40px; */
+  }
+  .termsandconditions ul li {
+    list-style: square;
+  }
+  .termsandconditions h2 {
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .oneprod {
+    display: flex;
+    justify-content: center;
+  }
+  .one {
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .oneprod-left {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .onjc {
+    display: flex;
+    flex-flow: column;
+    max-width: 400px;
+    height: 418px;
+  }
+  .oneimg {
+    display: flex;
+    width: 390px;
+    height: auto;
+    gap: 17px;
+    margin-top: 5px;
+    justify-content: center;
+    object-fit: contain;
+  }
+  .oneimg img {
+    width: 57px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .oneimg-main {
+    display: flex;
+    width: 400px;
+    height: 448px;
+    box-shadow: 0px;
+    justify-content: center;
+    object-fit: contain;
+  }
+  .oneimg-main img {
+    max-width: 360px;
+    max-height: 416px;
+    object-fit: contain;
+  }
+  .botton {
+    display: flex;
+    width: 390px;
+    height: 68px;
+    gap: 12px;
+    justify-content: center;
+  }
+  .botton button {
+    width: 192px;
+    height: 55px;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+  }
+  .botton button:active {
+    background-color: white;
+  }
+  .oneprod-right {
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 448px;
+  }
+  .oneprod-right::-webkit-scrollbar {
+    display: none;
+  }
+  .dim {
+    flex-flow: column;
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+  }
+  .dim h2{
+    text-align: left;
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
+  .titlebrand {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .discrip {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  .rating p {
+    display: flex;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+  .rating img {
+    width: 16px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .price {
+    display: flex;
+    text-decoration: line-through;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .afterdiscount {
+    font-size: 28px;
+  }
+  .discount {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .addto {
+    background-color: rgb(242, 242, 123);
+  }
+  .buy {
+    background-color: coral;
+  }
+  .termsandconditions {
+    margin-top: 60px;
+    margin-left: 5px;
+  }
+  .star {
+    display: flex;
+    padding-top: 30px;
+    /* margin-left: 40px; */
+  }
+  .termsandconditions ul li {
+    list-style: square;
+  }
+  .termsandconditions h2 {
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+  }
+}

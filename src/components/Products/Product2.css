@@ -1,0 +1,252 @@
+@media(max-width:768px) and (min-width:0px){
+  .display2 {
+    display: grid;
+    /* display: flex; */
+    padding: 0px 4px 6px;
+    width:90vw;
+    gap: 60px 0px ;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .belly2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 0px 16px 30px 16px;
+    width: 320px;
+    height: 270px;
+    
+  }
+  .pdfg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 10px;
+    width: 320px;
+    padding: 6px;
+    height: 270px;
+    box-shadow: 0 1px 3px -2px black;
+  }
+  .ct-img2 {
+    object-fit: contain;
+  }
+  .ct-img2 img {
+    max-width: 187px;
+    height: 187px;
+    object-fit: contain;
+  
+  }
+  .ct-img2 a {
+    width: 0px;
+    height: 0px;
+  }
+  .ct-dis2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    height: 52px;
+    font-size: 12px;
+  }
+  .ct-dis2 img {
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+  }
+  .ct-dis2 button{
+    background: white;
+    border: none;
+    color: black;
+  }
+  .ct-dis2 button:active{
+    color: red;
+  }
+  .bms{
+    background: white;
+    border: none;
+    margin-left: 10px;
+  }
+  .btnm2 {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    top: -252px;
+    left: 130px;
+    border: none;
+    background: white;
+    border-radius: 100px;
+  }
+  .btnm2:active {
+    color: red;
+  }
+ }
+@media (min-width:1024px){
+  .display2 {
+    display: grid;
+    /* display: flex; */
+    padding: 0px 4px 6px;
+    width:90vw;
+    gap: 60px 0px ;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .belly2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 0px 16px 30px 16px;
+    width: 216px;
+    height: 270px;
+    
+  }
+  .pdfg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 200px;
+    padding: 6px;
+    height: 270px;
+    box-shadow: 0 1px 3px -2px black;
+  }
+  .ct-img2 {
+    object-fit: contain;
+  }
+  .ct-img2 img {
+    max-width: 187px;
+    height: 187px;
+    object-fit: contain;
+  
+  }
+  .ct-img2 a {
+    width: 0px;
+    height: 0px;
+  }
+  .ct-dis2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    max-width: 187px;
+    height: 52px;
+    font-size: 12px;
+  }
+  .ct-dis2 img {
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+  }
+  .ct-dis2 button{
+    background: white;
+    border: none;
+    color: black;
+  }
+  .ct-dis2 button:active{
+    color: red;
+  }
+  .bms{
+    background: white;
+    border: none;
+  }
+  .btnm2 {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    top: -252px;
+    left: 80px;
+    border: none;
+    background: white;
+    border-radius: 100px;
+  }
+  .btnm2:active {
+    color: red;
+  }
+}
+@media (max-width:1024px) and (min-width:768px){
+  .display2 {
+    display: grid;
+    /* display: flex; */
+    padding: 0px 4px 6px;
+    width:90vw;
+    gap: 60px 0px ;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .belly2 {
+    padding: 0px 16px 30px 16px;
+    width: 216px;
+    height: 270px;
+    
+  }
+  .pdfg2 {
+    width: 200px;
+    padding: 6px;
+    height: 270px;
+    box-shadow: 0 1px 3px -2px black;
+  }
+  .ct-img2 {
+    object-fit: contain;
+  }
+  .ct-img2 img {
+    max-width: 187px;
+    height: 187px;
+    object-fit: contain;
+  
+  }
+  .ct-img2 a {
+    width: 0px;
+    height: 0px;
+  }
+  .ct-dis2 {
+    max-width: 187px;
+    height: 52px;
+    font-size: 12px;
+  }
+  .ct-dis2 img {
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+  }
+  .ct-dis2 button{
+    background: white;
+    border: none;
+    color: black;
+  }
+  .ct-dis2 button:active{
+    color: red;
+  }
+  .bms{
+    background: white;
+    border: none;
+  }
+  .btnm2 {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    top: -252px;
+    left: 160px;
+    border: none;
+    background: white;
+    border-radius: 100px;
+  }
+  .btnm2:active {
+    color: red;
+  }
+}
+
